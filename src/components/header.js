@@ -97,19 +97,19 @@ const Header = (props) => {
             </NavItem>
             <NavItem>
               {/* <Link to={doctors} >{Doctors}</Link> */}
-              <Link className="links" to="doctors"><MDBIcon icon="user-md" /> Doctors</Link>
+              <Link className="links" to="/awtaradmin/doctors"><MDBIcon icon="user-md" /> Doctors</Link>
               {/* <NavLink href="doctors">Doctors</NavLink> */}
             </NavItem>
             <NavItem>
-              <Link className="links" to="Patients"><MDBIcon icon="wheelchair" /> Patients</Link>
+              <Link className="links" to="/awtaradmin/Patients"><MDBIcon icon="wheelchair" /> Patients</Link>
               {/* <NavLink href="Patients">Patients</NavLink> */}
             </NavItem>
             <NavItem>
-              <Link className="links" to="Appointments"><MDBIcon far icon="calendar-alt" /> Appointments</Link>
+              <Link className="links" to="/awtaradmin/Appointments"><MDBIcon far icon="calendar-alt" /> Appointments</Link>
               {/* <NavLink href="Appointments">Appointments</NavLink> */}
             </NavItem>
             <NavItem>
-              <Link className="links" to="Payments"><MDBIcon icon="file-invoice-dollar" /> Account</Link>
+              <Link className="links" to="/awtaradmin/Payments"><MDBIcon icon="file-invoice-dollar" /> Account</Link>
               {/* <NavLink href="Account">Account</NavLink> */}
             </NavItem>
           </Nav>

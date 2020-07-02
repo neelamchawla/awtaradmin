@@ -20,7 +20,7 @@ const Box = (props) => {
         <MDBIcon icon="user-md" pull="left" size="3x" /><br/>
         <CardTitle className="boxItem">20</CardTitle>
         <CardText>Total number</CardText>
-        <Button className="boxBtn" color="secondary"><Link className="link" to="doctors">Doctors</Link></Button>
+        <Button className="boxBtn" color="secondary"><Link className="link" to="/awtaradmin/doctors">Doctors</Link></Button>
       </Card>
 
       <Card body inverse color="info">
@@ -29,21 +29,21 @@ const Box = (props) => {
         {/* <MDBIcon icon="heartbeat" size="3x"/> */}
         <CardTitle className="boxItem">14</CardTitle>
         <CardText>Total number</CardText>
-        <Button className="boxBtn" color="secondary"><Link className="link" to="Patients">Patients</Link></Button>
+        <Button className="boxBtn" color="secondary"><Link className="link" to="/awtaradmin/Patients">Patients</Link></Button>
       </Card>
 
       <Card body inverse color="warning">
         <MDBIcon icon="file-medical" size="3x" /><br/>
         <CardTitle className="boxItem">60</CardTitle>
         <CardText>Total number</CardText>
-        <Button className="boxBtn" color="secondary"><Link className="link" to="Appointments">Appointments</Link></Button>
+        <Button className="boxBtn" color="secondary"><Link className="link" to="/awtaradmin/Appointments">Appointments</Link></Button>
       </Card>
 
       <Card body inverse color="primary">
         <MDBIcon icon="file-invoice-dollar" size="3x" /><br/>
         <CardTitle className="boxItem">40</CardTitle>
         <CardText>Total number</CardText>
-        <Button className="boxBtn" color="secondary" href="Payments">Account</Button>
+        <Button className="boxBtn" color="secondary" href="/awtaradmin/Payments">Account</Button>
       </Card>
     </div>
   );

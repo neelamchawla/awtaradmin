@@ -26,16 +26,16 @@ class App extends React.Component {
                 <Switch>
                   <Route exact path="/awtaradmin" component={ Home } />
                   {/* <Route exact path="/home" component={ Home } /> */}
-                  <Route exact path="/doctors" component={ Doctors } />
-                  <Route exact path="/NewDoc" component={NewDoc} />
-                  <Route exact path="/Patients" component={Patients} />
-                  <Route exact path="/NewPatient" component={NewPatient} />
-                  <Route exact path="/Appointments" component={Appointments} />
-                  <Route exact path="/NewAppointment" component={NewAppointment} />
-                  <Route exact path="/Payments" component={Payments} />
-                  <Route exact path="/NewPayment" component={NewPayment} />
-                  <Route exact path="/Expenses" component={Expenses} />
-                  <Route exact path="/NewExp" component={NewExp} />
+                  <Route path="/awtaradmin/doctors" component={ Doctors } />
+                  <Route path="/awtaradmin/NewDoc" component={NewDoc} />
+                  <Route path="/awtaradmin/Patients" component={Patients} />
+                  <Route path="/awtaradmin/NewPatient" component={NewPatient} />
+                  <Route path="/awtaradmin/Appointments" component={Appointments} />
+                  <Route path="/awtaradmin/NewAppointment" component={NewAppointment} />
+                  <Route path="/awtaradmin/Payments" component={Payments} />
+                  <Route path="/awtaradmin/NewPayment" component={NewPayment} />
+                  <Route path="/awtaradmin/Expenses" component={Expenses} />
+                  <Route path="/awtaradmin/NewExp" component={NewExp} />
                   {/* <Route exact path="/login" component={Login} /> */}
                 </Switch>
     );

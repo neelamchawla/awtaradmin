@@ -522,7 +522,7 @@ const Patients = () => {
             <Header/>
             <h1 className="doc">Patients</h1>
             <MDBBtn gradient="purple" className="btn1">
-            <Link className="link" to="NewPatient">
+            <Link className="link" to="/awtaradmin/NewPatient">
             <MDBIcon icon="plus" /> Add Patient</Link>
             </MDBBtn>
       {/* --------------------Box Return-------------------------- */}
