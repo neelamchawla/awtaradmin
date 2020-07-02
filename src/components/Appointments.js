@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "./header";
-import {
+import { MDBBtn, MDBIcon } from "mdbreact";
   //  MDBRow, MDBCol,
-   MDBBtn, MDBIcon } from "mdbreact";
 import { MDBInput, MDBTable, MDBTableBody, MDBTableHead  } from 'mdbreact';
 import { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from "mdbreact";
 import { Link } from 'react-router-dom';
@@ -64,7 +63,7 @@ const Appointments = () => {
             'time': '10:00am - 11:00am',
             'action':  <MDBDropdown dropleft>
                         <MDBDropdownToggle  className="btn2" caret color="default">
-                            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+                            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
                         </MDBDropdownToggle>
                         <MDBDropdownMenu basic>
                             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>
@@ -81,7 +80,7 @@ const Appointments = () => {
             'time': '11:00am - 12:00pm',
             'action':  <MDBDropdown dropleft>
                         <MDBDropdownToggle  className="btn2" caret color="default">
-                            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+                            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
                         </MDBDropdownToggle>
                         <MDBDropdownMenu basic>
                             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>
@@ -98,7 +97,7 @@ const Appointments = () => {
             'time': '12:00am - 01:00pm',
             'action':  <MDBDropdown dropleft>
                         <MDBDropdownToggle  className="btn2" caret color="default">
-                            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+                            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
                         </MDBDropdownToggle>
                         <MDBDropdownMenu basic>
                             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>

@@ -28,7 +28,7 @@ const Doctors = () => {
         <div className="box">
             <MDBDropdown dropleft>
                 <MDBDropdownToggle  className="btn2" caret color="default">
-                    <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+                    <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
                 </MDBDropdownToggle>
                 <MDBDropdownMenu basic>
                     <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>
@@ -36,19 +36,19 @@ const Doctors = () => {
                 </MDBDropdownMenu>
             </MDBDropdown>
             
-            <MDBBox display="flex" justifyContent="center">
+            <MDBBox display="flex" justifycontent="center">
             <img className="Avatar" alt="avatar" src={Avatar}/>
             </MDBBox>
-            <MDBBox color="cyan" display="flex" justifyContent="center" tag="span">
+            <MDBBox color="cyan" display="flex" justifycontent="center" tag="span">
                <b>John Doe</b>
             </MDBBox>
-            <MDBBox color="pink" display="flex" justifyContent="center" tag="span">
+            <MDBBox color="pink" display="flex" justifycontent="center" tag="span">
                 MBBS
             </MDBBox>
-            <MDBBox color="blue" display="flex" justifyContent="center" tag="p">
+            <MDBBox color="blue" display="flex" justifycontent="center" tag="p">
             <MDBIcon icon="map-marker-alt" /> Address
             </MDBBox>
-            <MDBBox color="blue" display="flex" justifyContent="center" tag="section">
+            <MDBBox color="blue" display="flex" justifycontent="center" tag="section">
             <MDBIcon icon="phone" /> Phn No.
             </MDBBox>
         </div>

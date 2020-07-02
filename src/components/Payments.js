@@ -67,7 +67,7 @@ const Payments = () => {
     rows: [
       {
         sr: '1',
-        invoice: <Link to="./files/test.pdf" target="_blank" download>INV-0001</Link>,
+        invoice: <Link to="./files/test.pdf" target="_blank" download>INV-0001<br/>Download PDF</Link>,
         name: 'Shad Decker',
         created: '1/10/2019',
         due: '7/10/2019',
@@ -75,7 +75,7 @@ const Payments = () => {
         status: <MDBBtn disabled outline color="danger">Pending</MDBBtn>,
         action: <MDBDropdown dropleft>
         <MDBDropdownToggle  className="btn2" caret color="default">
-            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
         </MDBDropdownToggle>
         <MDBDropdownMenu basic>
             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>
@@ -87,7 +87,7 @@ const Payments = () => {
       },
       {
         sr: '2',
-        invoice: <Link to="./files/test.pdf" target="_blank" download>INV-0002</Link>,
+        invoice: <Link to="./files/test.pdf" target="_blank" download>INV-0002<br/>Download PDF</Link>,
         name: 'Michael Bruce',
         created: '6/10/2019',
         due: '12/10/2019',
@@ -95,7 +95,7 @@ const Payments = () => {
         status: <MDBBtn disabled outline color="success">Paid</MDBBtn>,
         action: <MDBDropdown dropleft>
         <MDBDropdownToggle  className="btn2" caret color="default">
-            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
         </MDBDropdownToggle>
         <MDBDropdownMenu basic>
             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>
@@ -107,7 +107,7 @@ const Payments = () => {
       },
       {
         sr: '3',
-        invoice: <Link to="./files/test.pdf" target="_blank" download>INV-0003</Link>,
+        invoice: <Link to="./files/test.pdf" target="_blank" download>INV-0003<br/>Download PDF</Link>,
         name: 'Donna Snider',
         created: '11/10/2019',
         due: '17/10/2019',
@@ -115,7 +115,7 @@ const Payments = () => {
         status: <MDBBtn disabled outline color="secondary">Sent</MDBBtn>,
         action: <MDBDropdown dropleft>
         <MDBDropdownToggle  className="btn2" caret color="default">
-            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
         </MDBDropdownToggle>
         <MDBDropdownMenu basic>
             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>

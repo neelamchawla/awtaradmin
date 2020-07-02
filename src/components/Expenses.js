@@ -68,7 +68,7 @@ const Expenses = () => {
         status: <MDBBtn outline color="danger">Pending</MDBBtn>,
         action: <MDBDropdown dropleft>
         <MDBDropdownToggle  className="btn2" caret color="default">
-            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
         </MDBDropdownToggle>
         <MDBDropdownMenu basic>
             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>
@@ -85,7 +85,7 @@ const Expenses = () => {
         status: <MDBBtn outline color="success">Approved</MDBBtn>,
         action: <MDBDropdown dropleft>
         <MDBDropdownToggle  className="btn2" caret color="default">
-            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
         </MDBDropdownToggle>
         <MDBDropdownMenu basic>
             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>
@@ -102,7 +102,7 @@ const Expenses = () => {
         status: <MDBBtn outline color="danger">Pending</MDBBtn>,
         action: <MDBDropdown dropleft>
         <MDBDropdownToggle  className="btn2" caret color="default">
-            <MDBIcon display="flex" justifyContent="end" icon="ellipsis-v" />
+            <MDBIcon display="flex" justifycontent="end" icon="ellipsis-v" />
         </MDBDropdownToggle>
         <MDBDropdownMenu basic>
             <MDBDropdownItem><MDBIcon far icon="edit" /> Edit</MDBDropdownItem>

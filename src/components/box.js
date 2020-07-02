@@ -43,7 +43,8 @@ const Box = (props) => {
         <MDBIcon icon="file-invoice-dollar" size="3x" /><br/>
         <CardTitle className="boxItem">40</CardTitle>
         <CardText>Total number</CardText>
-        <Button className="boxBtn" color="secondary" href="/awtaradmin/Payments">Account</Button>
+        <Button className="boxBtn" color="secondary"><Link className="link" to="/awtaradmin/Payments">Account</Link></Button>
+        {/* <Button className="boxBtn" color="secondary" href="/awtaradmin/Payments">Account</Button> */}
       </Card>
     </div>
   );
