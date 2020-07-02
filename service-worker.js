@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/awtaradmin/precache-manifest.c0b8aacd0dcd923960b9c7a0b52d3826.js"
+  "/awtaradmin/precache-manifest.5127f81b44f6fca7fc7f8170a582a845.js"
 );
 
 self.addEventListener('message', (event) => {
