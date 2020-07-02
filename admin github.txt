@@ -1,0 +1,19 @@
+create a new repository on the command line
+echo "# awtaradmin" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/neelamchawla/awtaradmin
+git remote set-url origin https://github.com/neelamchawla/awtaradmin
+npm run build
+npm install gh-pages --save-dev
+npm run deploy
+
+git add -A
+git commit -m "comment"
+git push origin master
+npm run deploy
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/neelamchawla/awtaradmin.git
+git push -u origin master

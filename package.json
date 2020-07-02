@@ -1,0 +1,49 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://neelamchawla.github.io/awtaradmin",
+  "dependencies": {
+    "@culturehq/charts": "^1.2.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "@mobiscroll/react-lite": "^4.9.0",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "mdbreact": "^4.23.0",
+    "react": "^16.12.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.12.0",
+    "react-fa-icon": "^0.1.4",
+    "react-favicon": "0.0.17",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-scroll-up-button": "^1.6.4",
+    "reactstrap": "^8.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
