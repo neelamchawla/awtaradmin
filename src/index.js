@@ -24,8 +24,8 @@ class App extends React.Component {
     return (
       
                 <Switch>
-                  <Route exact path="/" component={ Home } />
-                  <Route exact path="/home" component={ Home } />
+                  <Route exact path="/awtaradmin" component={ Home } />
+                  {/* <Route exact path="/home" component={ Home } /> */}
                   <Route exact path="/doctors" component={ Doctors } />
                   <Route exact path="/NewDoc" component={NewDoc} />
                   <Route exact path="/Patients" component={Patients} />

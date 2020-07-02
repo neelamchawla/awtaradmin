@@ -32,7 +32,8 @@ const Header = (props) => {
       <Favicon url={ process.env.PUBLIC_URL + '/favicon.PNG' } />
 
       <Navbar color="faded" light>
-        <NavbarBrand className="mr-auto toggler"><Link className="links" to=".">Admin Panel</Link>
+        <NavbarBrand className="mr-auto toggler">
+          <Link className="links" to="/awtaradmin">Admin Panel</Link>
         </NavbarBrand>
         
         
@@ -91,7 +92,7 @@ const Header = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
           <NavItem>
-              <Link className="links" to="."><MDBIcon icon="tachometer-alt" /> Dashboard</Link>
+              <Link className="links" to="/awtaradmin"><MDBIcon icon="tachometer-alt" /> Dashboard</Link>
               {/* <NavLink href=".">Dashboard</NavLink> */}
             </NavItem>
             <NavItem>
