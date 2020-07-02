@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a96429fd36ec468e2ed028b55d7eb79",
+    "revision": "aee264039e7859db8fd14d7eec56221d",
     "url": "/awtaradmin/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/awtaradmin/static/css/2.99cc5817.chunk.css"
   },
   {
-    "revision": "1e5b77c343302ae9036f",
+    "revision": "84bbefb55ba52daf996c",
     "url": "/awtaradmin/static/css/main.cb0a363b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/awtaradmin/static/js/2.edf6bb69.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e5b77c343302ae9036f",
-    "url": "/awtaradmin/static/js/main.8dd4e32a.chunk.js"
+    "revision": "84bbefb55ba52daf996c",
+    "url": "/awtaradmin/static/js/main.2b230311.chunk.js"
   },
   {
     "revision": "7325ec7dffb7dc7becda",
