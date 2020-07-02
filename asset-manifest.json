@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/awtaradmin/static/css/main.cb0a363b.chunk.css",
-    "main.js": "/awtaradmin/static/js/main.92a94c11.chunk.js",
-    "main.js.map": "/awtaradmin/static/js/main.92a94c11.chunk.js.map",
+    "main.js": "/awtaradmin/static/js/main.8dd4e32a.chunk.js",
+    "main.js.map": "/awtaradmin/static/js/main.8dd4e32a.chunk.js.map",
     "runtime-main.js": "/awtaradmin/static/js/runtime-main.936e1e98.js",
     "runtime-main.js.map": "/awtaradmin/static/js/runtime-main.936e1e98.js.map",
     "static/css/2.99cc5817.chunk.css": "/awtaradmin/static/css/2.99cc5817.chunk.css",
     "static/js/2.edf6bb69.chunk.js": "/awtaradmin/static/js/2.edf6bb69.chunk.js",
     "static/js/2.edf6bb69.chunk.js.map": "/awtaradmin/static/js/2.edf6bb69.chunk.js.map",
     "index.html": "/awtaradmin/index.html",
-    "precache-manifest.5127f81b44f6fca7fc7f8170a582a845.js": "/awtaradmin/precache-manifest.5127f81b44f6fca7fc7f8170a582a845.js",
+    "precache-manifest.ad57acdd148554518f27ef9071d1c064.js": "/awtaradmin/precache-manifest.ad57acdd148554518f27ef9071d1c064.js",
     "service-worker.js": "/awtaradmin/service-worker.js",
     "static/css/2.99cc5817.chunk.css.map": "/awtaradmin/static/css/2.99cc5817.chunk.css.map",
     "static/css/main.cb0a363b.chunk.css.map": "/awtaradmin/static/css/main.cb0a363b.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.99cc5817.chunk.css",
     "static/js/2.edf6bb69.chunk.js",
     "static/css/main.cb0a363b.chunk.css",
-    "static/js/main.92a94c11.chunk.js"
+    "static/js/main.8dd4e32a.chunk.js"
   ]
 }
