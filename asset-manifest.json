@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/awtaradmin/static/css/main.35aea616.chunk.css",
+    "main.js": "/awtaradmin/static/js/main.d3529507.chunk.js",
+    "main.js.map": "/awtaradmin/static/js/main.d3529507.chunk.js.map",
+    "runtime-main.js": "/awtaradmin/static/js/runtime-main.0e97140a.js",
+    "runtime-main.js.map": "/awtaradmin/static/js/runtime-main.0e97140a.js.map",
+    "static/css/2.a2a32b3a.chunk.css": "/awtaradmin/static/css/2.a2a32b3a.chunk.css",
+    "static/js/2.4b4558d9.chunk.js": "/awtaradmin/static/js/2.4b4558d9.chunk.js",
+    "static/js/2.4b4558d9.chunk.js.map": "/awtaradmin/static/js/2.4b4558d9.chunk.js.map",
+    "index.html": "/awtaradmin/index.html",
+    "precache-manifest.c0b8aacd0dcd923960b9c7a0b52d3826.js": "/awtaradmin/precache-manifest.c0b8aacd0dcd923960b9c7a0b52d3826.js",
+    "service-worker.js": "/awtaradmin/service-worker.js",
+    "static/css/2.a2a32b3a.chunk.css.map": "/awtaradmin/static/css/2.a2a32b3a.chunk.css.map",
+    "static/css/main.35aea616.chunk.css.map": "/awtaradmin/static/css/main.35aea616.chunk.css.map",
+    "static/js/2.4b4558d9.chunk.js.LICENSE": "/awtaradmin/static/js/2.4b4558d9.chunk.js.LICENSE",
+    "static/media/Calendar.PNG": "/awtaradmin/static/media/Calendar.947ed90d.PNG",
+    "static/media/mdb.css": "/awtaradmin/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/avatar_1.png": "/awtaradmin/static/media/avatar_1.b6e8e30a.png",
+    "static/media/all.min.css": "/awtaradmin/static/media/fa-solid-900.c2801fb4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e97140a.js",
+    "static/css/2.a2a32b3a.chunk.css",
+    "static/js/2.4b4558d9.chunk.js",
+    "static/css/main.35aea616.chunk.css",
+    "static/js/main.d3529507.chunk.js"
+  ]
+}
